@@ -1,0 +1,17 @@
+main {
+    padding: 2em;
+}
+
+.imgPortada {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+div div img {
+    width: 27em;
+    max-height: auto;
+}

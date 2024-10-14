@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importamos el CSS de Bootstrap v5.3.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Estilos.CSS">
+    <title>Página 3</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Página web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="página1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="página2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="página3.html">Página 3</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1>
+            Schopenhauer y el Sufrimiento
+        </h1>
+        <div class="d-flex justify-content-center imgPortada">
+            <img src="imagenes/schopenhauer.jpg" alt="">
+        </div>
+        <p>
+            Schopenhauer le daba mucha importancia al concepto de la voluntad siendo esta la esencia de
+            la realidad de la vida y el motor de la acción humana y por ende de su sufrimiento, la voluntad es
+            insaciable
+            y por ello la vida se convierte en una constante lucha por la satisfacción. Los humanos siempre estamos
+            insatisfechos estamos condenados a sufrir ya que siempre vamos a estar deseando algo y cuando logremos lo
+            deseados simplemente será remplazado por otro deseo.
+
+            En este aspecto Schopenhauer coincide con que desear es sufrir con que la naturaleza del deseo es
+            insaciable. La vida es entonces fundamental dolorosa
+        </p>
+        <div class="alert alert-info" role="alert">
+            "Desear es sufrir, la naturaleza del deseo es insaciable." - Schopenhauer
+        </div>
+        <p>
+            Pero la insatisfacción es lo que nos motiva a seguir avanzando, nos mueve quitandonos de un estancanmiento
+            en el que pudieramos estar, es ese sufrimiento el que nos orilla a hacer cosas aunque se debe considerar que
+            la superación de aquellas condiciones que provocan una insatisfacción son posibles de hacer por nosotros y
+            con ello podremos lograrlo y nos sentiremos bien, tendremos esa satisfacción, hasta que una nueva
+            instasfacción por un deseo mayor aparezca y de inicio a un ciclo nuevo.
+        </p>
+
+        <p>
+            A pesar de lo anterior, Schopenhauer, a pesar de su pesimismo respecto al sufrimiento interminable, creía
+            que había una forma temporal de escapar. A través del arte, dice que el arte logra que nos veamos
+            temporalmente liberados de la voluntad e insatisfacción que trae consigo, llegando a un estado de paz y
+            contemplación. Así, cuando "volvemos a abrir los ojos" y apreciamos el arte ya sea visual o auditivo, este
+            sirve como vía de escape relajandonos.
+
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Mostrar proceso
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Proceso de escape del sufrimiento
+                            interminable </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="imagenes/sufrimiento.webp" alt="" id="img1">
+                                    <label for="">Se sufre por la insatisfacción</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="imagenes/nocheestrellada.webp" alt="">
+                                    <label for="">Se aprecia concientemente una forma de arte</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="imagenes/mujerRelajada.jpeg" alt="">
+                                    <label for="">Se logra un escape temporal del sufrimiento</label>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Importamos el JS de Bootstrap v5.3.3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
