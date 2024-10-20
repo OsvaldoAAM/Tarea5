@@ -57,6 +57,9 @@
         </p>
 
         <h3>Tipos de ser</h3>
+        <p data-bs-toggle="tooltip" title="Sección sobre los tipos de ser según Sartre.">
+            ¿Qué tipos de ser existen?
+        </p>
         <p>
             Según Sartre existen varios tipos de ser:
         </p>
@@ -85,14 +88,12 @@
                         sabemos que nosotros mismos somo sujetos pero al no poder tener acceso a la conciencia de otros
                         no podemos sino pensar en los demás como objetos y hemos de requerir un esfuerzo activo para
                         considerar a otros sujetos.</p>
-
                 </div>
             </div>
         </div>
         <p>
             La mala fe se da cuando intentamos hacer de nosotros, un ser para si, un ser en
             sí. conviertiendo nuestra identidad en algo fijo e inmutable.
-
         </p>
         <p>
             Aunque para Sartre existe otro tipo de existencia, el ser para otros, que supone convertir a un sujeto en
@@ -101,13 +102,17 @@
 
     </main>
 
-
-
-
     <!-- Importamos el JS de Bootstrap v5.3.3 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
         integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
 </body>
 
 </html>
